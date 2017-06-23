@@ -1,0 +1,17 @@
+{
+  "name": "open-data",
+  "description": "no description",
+  "main": "",
+  "authors": [
+    "tienvn3012"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private" : true,
+  "dependencies": {
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route" : "1.5.x",
+    "bootstrap": "3.3.x"
+  }
+}

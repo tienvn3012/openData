@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chart</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" 
+	href="../../node_modules/font-awesome/css/font-awesome.css">
+		
+</head>
+<body>
+
+<div class="wapper" ng-app="open-data" ng-controller="open-controller">
+	<div id="content" >
+		<div class="main">
+			<ul class="histogram-components">
+					<li id="c1" class="components" draggable="true" 
+					ondragstart="drag(event)" data-type="0"><i class="fa fa-star"></i>abc</li>
+					<li id="c2" class="components" draggable="true" 
+					ondragstart="drag(event)" data-type="1">abc</li>
+					<li id="c3" class="components" draggable="true" 
+					ondragstart="drag(event)" data-type="1">abc</li>
+			</ul>
+
+			<div class="histogram-box">
+				<div class="histogram-drop">
+					<ul id="drop-object" class="histogram-objects" ondrop="drop(event)" ondragover="allowDrop(event)"></ul>
+					<ul id="drop-data" class="histogram-data" ondrop="drop(event)" 
+					ondragover="allowDrop(event)"></ul>
+				</div>
+
+				<div class="histogram">
+					<canvas id="chart" width="600" height="400" ></canvas>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+<button id="get" ng-click="click()"  style="width: 100px;height: 50px;">{{var}}
+</button>
+
+
+
+	
+</div>
+
+<script type="text/javascript"
+	src="../../node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="../js/Chart.min.js"></script>
+	<script src="../../node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+	<script type="text/javascript" src="../js/my-script.js"></script>
+</body>
+</html>

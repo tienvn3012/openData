@@ -1,0 +1,105 @@
+html , body{margin: 0px;padding: 0px;}
+body {
+	font-size: 14px;
+	color: #000
+}
+ul{margin: 0px;padding: 0px;}
+li{
+	cursor: pointer;
+	list-style: none;
+}
+
+
+.wapper{
+	width: 100%;
+}
+
+.main{
+	width: 70%;
+	margin: auto;
+}
+
+.clear{clear: both;}
+
+/*header*/
+#header{}
+/*end header*/
+
+/*menu*/
+#menu{}
+/*end menu*/
+
+/*content*/
+#content{
+	width: 100%;
+	height: auto;
+}
+
+#content .histogram-components{
+	margin-top: 20px;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	border: 1px solid #4a4a4a;
+	border-radius: 4px;
+	display: flex;
+	text-align: center;
+	min-height: 50px;
+}
+
+#content .histogram-components li.components{
+	width: auto;
+	padding: 5px;
+	border: 1px solid #4a4a4a;
+	border-radius: 4px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#content .histogram-box{
+	width: 100%;
+	margin-top: 20px;
+}
+#content .histogram-box .histogram-drop{
+	width: 29%;
+	float: left;
+
+}
+
+#content .histogram-box .histogram-drop .histogram-objects{
+	width: 100%;
+	min-height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #000;
+}
+
+
+#content .histogram-box .histogram-drop .histogram-data{
+	width: 100%;
+	min-height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #000;
+	margin-top: 30px;
+}
+
+#content .histogram-box .histogram-drop li.components{
+	width: 80%;
+	padding: 5px;
+	border: 1px solid #4a4a4a;
+	border-radius: 4px;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+
+#content .histogram-box .histogram{
+	width: 70%;
+	float: right;
+}
+
+/*end content*/
